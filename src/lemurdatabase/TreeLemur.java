@@ -1,4 +1,10 @@
 package lemurdatabase;
-public class TreeLemur {
-    
+public class TreeLemur extends Lemur {
+String food = "fruit"; 
+String coatVariations = "Red Mane";    
+String groupSize = "Large";      
+
+public String getHaveFur(){
+return haveFur;
+ } 
 }
